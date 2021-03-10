@@ -1,0 +1,299 @@
+{
+	"info": {
+		"_postman_id": "7faff576-d666-4849-9de9-859489d73b30",
+		"name": "PHP_M9_Nivell1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://m9-nivell1.com",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "username",
+							"value": "prova",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "121547814",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "9aef76b2af694fa3b141813935379971",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "price",
+							"value": "40 Euros",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "categoryId",
+							"value": "5f06eeac05ac5d2b68e75dae",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "Newcolor",
+							"value": "blue",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "Newdescription",
+							"value": "big hero belt",
+							"type": "text",
+							"disabled": true
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://m9-nivell1.com",
+					"protocol": "http",
+					"host": [
+						"m9-nivell1",
+						"com"
+					]
+				},
+				"description": "Página principal de Laravel"
+			},
+			"response": []
+		},
+		{
+			"name": "http://m9-nivell1.com/bienvenida1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "username",
+							"value": "prova",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "121547814",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "9aef76b2af694fa3b141813935379971",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "price",
+							"value": "40 Euros",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "categoryId",
+							"value": "5f06eeac05ac5d2b68e75dae",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "Newcolor",
+							"value": "blue",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "Newdescription",
+							"value": "big hero belt",
+							"type": "text",
+							"disabled": true
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://m9-nivell1.com/bienvenida1",
+					"protocol": "http",
+					"host": [
+						"m9-nivell1",
+						"com"
+					],
+					"path": [
+						"bienvenida1"
+					]
+				},
+				"description": "Primer mensaje de bienvenida"
+			},
+			"response": []
+		},
+		{
+			"name": "http://m9-nivell1.com/bienvenida2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "username",
+							"value": "prova",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "121547814",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "9aef76b2af694fa3b141813935379971",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "price",
+							"value": "40 Euros",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "categoryId",
+							"value": "5f06eeac05ac5d2b68e75dae",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "Newcolor",
+							"value": "blue",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "Newdescription",
+							"value": "big hero belt",
+							"type": "text",
+							"disabled": true
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://m9-nivell1.com/bienvenida2",
+					"protocol": "http",
+					"host": [
+						"m9-nivell1",
+						"com"
+					],
+					"path": [
+						"bienvenida2"
+					]
+				},
+				"description": "Segundo mensaje de bienvenida con interpolación"
+			},
+			"response": []
+		},
+		{
+			"name": "http://m9-nivell1.com/bienvenida3/{name}",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "username",
+							"value": "prova",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "121547814",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "9aef76b2af694fa3b141813935379971",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "price",
+							"value": "40 Euros",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "categoryId",
+							"value": "5f06eeac05ac5d2b68e75dae",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "Newcolor",
+							"value": "blue",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "Newdescription",
+							"value": "big hero belt",
+							"type": "text",
+							"disabled": true
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://m9-nivell1.com/bienvenida3/pepe",
+					"protocol": "http",
+					"host": [
+						"m9-nivell1",
+						"com"
+					],
+					"path": [
+						"bienvenida3",
+						"pepe"
+					]
+				},
+				"description": "Tercer mensaje de bienvenida, con variable por path e interpolación"
+			},
+			"response": []
+		}
+	]
+}
