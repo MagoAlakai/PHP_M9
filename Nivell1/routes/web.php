@@ -21,10 +21,15 @@ Route::get('/bienvenida1', function () {
     return view('bienvenida1');
 });
 
-Route::get('/bienvenida2', function () {
-    return view('bienvenida2');
+Route::get('/bienvenida2', function () { // Para usar con interpolación
+    $b2 = 'Bienvenida 2';
+    return view('bienvenida2', array(
+        'b2' => $b2
+    ));
 });
 
-Route::get('/bienvenida3', function () {
-    return view('bienvenida3');
+Route::get('/bienvenida3/{nombre?}', function ($nombre = 'profe') { // Para usar variable por path e interpolación. Añado que variable por path sea opcional y que tengo un valor por defecto
+    return view('bienvenida3', array(
+        'nombre' => $nombre
+    ));
 });

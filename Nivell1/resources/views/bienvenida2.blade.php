@@ -7,6 +7,6 @@
     <title>Bienvenida 2</title>
 </head>
 <body>
-    <h1>Hola desde Bienvenida 2</h1>
+    <h1>Hola desde {{$b2}}</h1>
 </body>
 </html>
