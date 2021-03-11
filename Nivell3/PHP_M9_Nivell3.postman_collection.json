@@ -1,0 +1,258 @@
+{
+	"info": {
+		"_postman_id": "cc8ec202-1fc4-43c2-a643-e47ab8a469c9",
+		"name": "PHP_M9_Nivell3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "{{localhost}}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{localhost}}",
+					"host": [
+						"{{localhost}}"
+					]
+				},
+				"description": "Welcome"
+			},
+			"response": []
+		},
+		{
+			"name": "{{localhost}}/api/user",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{localhost}}/api/user",
+					"host": [
+						"{{localhost}}"
+					],
+					"path": [
+						"api",
+						"user"
+					]
+				},
+				"description": "Closure"
+			},
+			"response": []
+		},
+		{
+			"name": "{{localhost}}/paises",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{localhost}}/paises",
+					"host": [
+						"{{localhost}}"
+					],
+					"path": [
+						"paises"
+					]
+				},
+				"description": "Retorna paises"
+			},
+			"response": []
+		},
+		{
+			"name": "{{localhost}}/paises",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{localhost}}/paises",
+					"host": [
+						"{{localhost}}"
+					],
+					"path": [
+						"paises"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{localhost}}/paises/{pais}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{localhost}}/paises/{pais}",
+					"host": [
+						"{{localhost}}"
+					],
+					"path": [
+						"paises",
+						"{pais}"
+					]
+				},
+				"description": "Retorna un país concreto"
+			},
+			"response": []
+		},
+		{
+			"name": "{{localhost}}/paises/{pais}",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "{{localhost}}/paises/{pais}",
+					"host": [
+						"{{localhost}}"
+					],
+					"path": [
+						"paises",
+						"{pais}"
+					]
+				},
+				"description": "Modifica el país"
+			},
+			"response": []
+		},
+		{
+			"name": "{{localhost}}/paises/{pais}",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{localhost}}/paises/{pais}",
+					"host": [
+						"{{localhost}}"
+					],
+					"path": [
+						"paises",
+						"{pais}"
+					]
+				},
+				"description": "Elimina el país"
+			},
+			"response": []
+		},
+		{
+			"name": "{{localhost}}/paises/{pais}/departamentos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{localhost}}/paises/{pais}/departamentos",
+					"host": [
+						"{{localhost}}"
+					],
+					"path": [
+						"paises",
+						"{pais}",
+						"departamentos"
+					]
+				},
+				"description": "Retorna departamentos de un país"
+			},
+			"response": []
+		},
+		{
+			"name": "{{localhost}}/paises/{pais}/departamentos",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{localhost}}/paises/{pais}/departamentos",
+					"host": [
+						"{{localhost}}"
+					],
+					"path": [
+						"paises",
+						"{pais}",
+						"departamentos"
+					]
+				},
+				"description": "Envía departamentos de un país"
+			},
+			"response": []
+		},
+		{
+			"name": "{{localhost}}/paises/{pais}/departamentos/{departamento}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{localhost}}/paises/{pais}/departamentos/{departamento}",
+					"host": [
+						"{{localhost}}"
+					],
+					"path": [
+						"paises",
+						"{pais}",
+						"departamentos",
+						"{departamento}"
+					]
+				},
+				"description": "Retorna un departamento de un país"
+			},
+			"response": []
+		},
+		{
+			"name": "{{localhost}}/paises/{pais}/departamentos/{departamento}",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "{{localhost}}/paises/{pais}/departamentos/{departamento}",
+					"host": [
+						"{{localhost}}"
+					],
+					"path": [
+						"paises",
+						"{pais}",
+						"departamentos",
+						"{departamento}"
+					]
+				},
+				"description": "Modifica un departamento de un país"
+			},
+			"response": []
+		},
+		{
+			"name": "{{localhost}}/paises/{pais}/departamentos/{departamento}",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{localhost}}/paises/{pais}/departamentos/{departamento}",
+					"host": [
+						"{{localhost}}"
+					],
+					"path": [
+						"paises",
+						"{pais}",
+						"departamentos",
+						"{departamento}"
+					]
+				},
+				"description": "Elimina un departamento de un país"
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
