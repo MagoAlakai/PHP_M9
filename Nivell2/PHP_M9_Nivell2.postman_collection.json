@@ -1,0 +1,262 @@
+{
+	"info": {
+		"_postman_id": "891d2055-4c06-4bb2-8e3c-f1221ac4cfc6",
+		"name": "PHP_M9_Nivell2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://m9-nivell2.com",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://m9-nivell2.com",
+					"protocol": "http",
+					"host": [
+						"m9-nivell2",
+						"com"
+					]
+				},
+				"description": "Welcome"
+			},
+			"response": []
+		},
+		{
+			"name": "http://m9-nivell2.com/api/user",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://m9-nivell2.com/api/user",
+					"protocol": "http",
+					"host": [
+						"m9-nivell2",
+						"com"
+					],
+					"path": [
+						"api",
+						"user"
+					]
+				},
+				"description": "Closure"
+			},
+			"response": []
+		},
+		{
+			"name": "http://m9-nivell2.com/paises",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://m9-nivell2.com/paises",
+					"protocol": "http",
+					"host": [
+						"m9-nivell2",
+						"com"
+					],
+					"path": [
+						"paises"
+					]
+				},
+				"description": "Retorna paises"
+			},
+			"response": []
+		},
+		{
+			"name": "http://m9-nivell2.com/paises",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://m9-nivell2.com/paises",
+					"protocol": "http",
+					"host": [
+						"m9-nivell2",
+						"com"
+					],
+					"path": [
+						"paises"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://m9-nivell2.com/paises/{pais}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://m9-nivell2.com/paises/{pais}",
+					"protocol": "http",
+					"host": [
+						"m9-nivell2",
+						"com"
+					],
+					"path": [
+						"paises",
+						"{pais}"
+					]
+				},
+				"description": "Retorna un país concreto"
+			},
+			"response": []
+		},
+		{
+			"name": "http://m9-nivell2.com/paises/{pais}",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://m9-nivell2.com/paises/{pais}",
+					"protocol": "http",
+					"host": [
+						"m9-nivell2",
+						"com"
+					],
+					"path": [
+						"paises",
+						"{pais}"
+					]
+				},
+				"description": "Modifica el país"
+			},
+			"response": []
+		},
+		{
+			"name": "http://m9-nivell2.com/paises/{pais}",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://m9-nivell2.com/paises/{pais}",
+					"protocol": "http",
+					"host": [
+						"m9-nivell2",
+						"com"
+					],
+					"path": [
+						"paises",
+						"{pais}"
+					]
+				},
+				"description": "Elimina el país"
+			},
+			"response": []
+		},
+		{
+			"name": "http://m9-nivell2.com/paises/{pais}/departamentos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://m9-nivell2.com/paises/{pais}/departamentos",
+					"protocol": "http",
+					"host": [
+						"m9-nivell2",
+						"com"
+					],
+					"path": [
+						"paises",
+						"{pais}",
+						"departamentos"
+					]
+				},
+				"description": "Retorna departamentos de un país"
+			},
+			"response": []
+		},
+		{
+			"name": "http://m9-nivell2.com/paises/{pais}/departamentos",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://m9-nivell2.com/paises/{pais}/departamentos",
+					"protocol": "http",
+					"host": [
+						"m9-nivell2",
+						"com"
+					],
+					"path": [
+						"paises",
+						"{pais}",
+						"departamentos"
+					]
+				},
+				"description": "Envía departamentos de un país"
+			},
+			"response": []
+		},
+		{
+			"name": "http://m9-nivell2.com/paises/{pais}/departamentos/{departamento}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://m9-nivell2.com/paises/{pais}/departamentos/{departamento}",
+					"protocol": "http",
+					"host": [
+						"m9-nivell2",
+						"com"
+					],
+					"path": [
+						"paises",
+						"{pais}",
+						"departamentos",
+						"{departamento}"
+					]
+				},
+				"description": "Retorna un departamento de un país"
+			},
+			"response": []
+		},
+		{
+			"name": "http://m9-nivell2.com/paises/{pais}/departamentos/{departamento}",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://m9-nivell2.com/paises/{pais}/departamentos/{departamento}",
+					"protocol": "http",
+					"host": [
+						"m9-nivell2",
+						"com"
+					],
+					"path": [
+						"paises",
+						"{pais}",
+						"departamentos",
+						"{departamento}"
+					]
+				},
+				"description": "Modifica un departamento de un país"
+			},
+			"response": []
+		},
+		{
+			"name": "http://m9-nivell2.com/paises/{pais}/departamentos/{departamento}",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://m9-nivell2.com/paises/{pais}/departamentos/{departamento}",
+					"protocol": "http",
+					"host": [
+						"m9-nivell2",
+						"com"
+					],
+					"path": [
+						"paises",
+						"{pais}",
+						"departamentos",
+						"{departamento}"
+					]
+				},
+				"description": "Elimina un departamento de un país"
+			},
+			"response": []
+		}
+	]
+}
